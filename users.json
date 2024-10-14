@@ -1,0 +1,17 @@
+{
+    "admin": {
+        "id": 1,
+        "password": "$2b$12$GM.2FdWT23mQPrvhJmU7J.HSMcjdaHkl56ACeeEb5LCKL3ccAg9dG",
+        "role": "admin"
+    },
+    "adri": {
+        "id": 2,
+        "password": "$2b$12$roHGx8VK/hFmwos3DYXWuOgmJnYsvowQxEygtH2rCxEntLauCL8pu",
+        "role": "empleado"
+    },
+    "juanjo": {
+        "id": 3,
+        "password": "$2b$12$G1hTygj2STnYNUpWT66iZ.KaHVQsjzXtgA9uAhxMmOvzjPbxvIlpS",
+        "role": "cliente"
+    }
+}

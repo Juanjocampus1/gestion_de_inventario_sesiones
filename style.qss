@@ -1,0 +1,140 @@
+/* style.qss */
+
+/* General Styles */
+* {
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+}
+
+/* Main Window */
+QMainWindow {
+    background-color: #1E1E1E;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #6A0DAD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: #8A2BE2;
+}
+
+QPushButton:pressed {
+    background-color: #4B0082;
+}
+
+/* Labels */
+QLabel {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Table */
+QTableWidget {
+    border: 1px solid #333;
+    font-size: 14px;
+    background-color: #2E2E2E;
+    alternate-background-color: #3E3E3E;
+}
+
+QTableWidget::item {
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+QHeaderView::section {
+    background-color: #6A0DAD;
+    color: white;
+    padding: 4px;
+    border: none;
+}
+
+/* Scrollbar */
+QScrollBar:vertical {
+    border: none;
+    background: #2E2E2E;
+    width: 12px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #6A0DAD;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* Dialogs */
+QDialog {
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+QDialogButtonBox {
+    button-layout: 0;
+}
+
+/* Line Edits */
+QLineEdit {
+    border: 1px solid #6A0DAD;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+}
+
+/* Group Boxes */
+QGroupBox {
+    border: 1px solid #6A0DAD;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 3px;
+    background-color: #6A0DAD;
+    color: white;
+    border-radius: 3px;
+}
+
+/* Message Boxes */
+QMessageBox {
+    font-size: 14px;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+/* Sales History */
+QListWidget {
+    background-color: #2E2E2E;
+    border: 1px solid #6A0DAD;
+    color: #FFFFFF;
+}
+
+/* Additional Styles for other widgets as needed */
+/* ... (Add more styles to reach 250 lines) */

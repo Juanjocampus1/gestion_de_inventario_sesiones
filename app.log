@@ -1,0 +1,13 @@
+2024-10-11 10:27:16,396 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 10:27:47,044 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 10:29:11,652 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 10:31:23,741 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 10:34:50,861 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 10:36:45,613 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 11:25:32,999 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 11:56:35,978 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 12:13:19,354 - main_window - DEBUG - Attempting to perform a sale
+2024-10-11 14:21:34,730 - main_window - ERROR - Exception: 'AuthManager' object has no attribute 'current_user_role'
+2024-10-14 13:45:09,500 - auth.auth_manager - ERROR - Error during registration: 1146 (42S02): Table 'usuarios.usuarios' doesn't exist
+2024-10-14 13:45:09,500 - auth.register_dialog - ERROR - Error during registration: 1146 (42S02): Table 'usuarios.usuarios' doesn't exist
+2024-10-14 13:46:02,855 - auth.auth_manager - INFO - User adri registered successfully

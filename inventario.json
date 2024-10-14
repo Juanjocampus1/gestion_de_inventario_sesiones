@@ -1,0 +1,18 @@
+{
+    "peras": {
+        "cantidad": 25,
+        "precio": 1.5
+    },
+    "manzana": {
+        "cantidad": 23,
+        "precio": 1.2
+    },
+    "platano": {
+        "cantidad": 23,
+        "precio": 1.2
+    },
+    "limon": {
+        "cantidad": 0,
+        "precio": 1.0
+    }
+}
